@@ -1,0 +1,6 @@
+config MULTIPLIER_DRIVER
+tristate "multiplier_driver"
+depends on ARM
+default y if ARM
+help
+	refer to ECEN449@TAMU
